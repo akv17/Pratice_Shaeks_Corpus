@@ -1,6 +1,6 @@
 import os
 
-aut = 'Phillip Massinger'
+aut = 'Phillip Massinger' #PUT AUTHOR NEEDED HERE
 nm = []
 
 for root, dr, fl in os.walk('C:\\Users\\Artem\\Desktop\\pr\\outpt\\MORPH\\'): #or ('.') if in root
