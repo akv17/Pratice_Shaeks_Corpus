@@ -192,7 +192,7 @@ def get_f(au):
     global textcheck
     for d in au:
         #if d not in autcheck: #indend here for author-walk method
-        if 'Phillip Massinger' in d: #SELECTIVE AUTHOR METHOD HERE
+        if 'Phillip Massinger' in d: #PUT NAME OF THE AUTHOR NEEDED HERE. SELECTIVE AUTHOR METHOD HERE
             for root, dirs, fl in os.walk(sketch + '\\' + d):
                 for f in fl:
                     print('\n\n\n', f.upper())
